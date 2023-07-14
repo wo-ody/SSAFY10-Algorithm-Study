@@ -1,6 +1,6 @@
 # 🖥 SSAFY10-Algorithm-Study
 
-> 매일 꾸준히 알고리즘 풀기 위한 스터디입니다. 
+> 매일 꾸준히 알고리즘 풀기 위한 인증 스터디입니다. 
 
 - 기간: 2023년 7월 17일~
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/)
