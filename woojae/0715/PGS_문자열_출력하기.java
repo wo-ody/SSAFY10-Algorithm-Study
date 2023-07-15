@@ -1,4 +1,3 @@
-package 프로그래머스;
 import java.util.Scanner;
 
 public class PGS_문자열_출력하기 {
