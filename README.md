@@ -3,7 +3,7 @@
 > 매일 꾸준히 알고리즘 풀기 위한 인증 스터디입니다. 
 
 - 기간: 2023년 7월 17일~
-- 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/), [코드트리](https://www.codetree.ai)
+- 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/), [코드트리](https://www.codetree.ai) , [SWEA](https://swexpertacademy.com/)
 
 
 <br/>
@@ -38,6 +38,7 @@
 | 백준     | BOJ |
 | 프로그래머스 | PGS |
 | 코드트리 | CDT |
+| SWEA | SWEA |
 
 - 본인이름/날짜/소스코드(플랫폼, 문제 번호와 제목 명시)
 
@@ -47,6 +48,8 @@
 ### 💡 예시
 
 `seohyun/0714/BOJ_1000_A+B.java`
+
+`seohyun/0714/SWEA_1000_A+B.java`
 
 `seohyun/0714/PGS_A+B.java` <- 프로그래머스는 문제번호가 따로 없으니 제목만 명시
 
