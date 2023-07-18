@@ -1,6 +1,6 @@
 package studyAuthenticating;
 
-import java.io.*;
+import java.io.*; 
 import java.util.*;
 
 public class BOJ_2164_카드2 {
