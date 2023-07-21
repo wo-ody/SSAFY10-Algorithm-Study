@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class L5_10809 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String word = sc.next();
+		int[] alpha = new int[26];
+
+		for (int i = 0; i < 26; i++) {
+			alpha[i] = -1;
+		}
+
+		for (int i = 0; i < word.length(); i++) {
+			char ch = word.charAt(i);
+			if (alpha[ch - 'a'] == -1)
+				alpha[ch - 'a'] = i;
+		}
+
+		for (int a : alpha)
+			System.out.print(a + " ");
+
+		sc.close();
+	}
+
+}
