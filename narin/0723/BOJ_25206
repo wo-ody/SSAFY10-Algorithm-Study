@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class L6_25206 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String[] subject = new String[20];
+		Double[] score = new Double[20];
+		String[] grade = new String[20];
+
+		Double sum = 0.0;
+		Double scoreSum = 0.0;
+
+		for (int i = 0; i < 20; i++) {
+			subject[i] = sc.next();
+			score[i] = sc.nextDouble();
+			grade[i] = sc.next();
+
+			if (!grade[i].equals("P"))
+				scoreSum += score[i];
+
+			switch (grade[i]) {
+			case "A+":
+				sum += score[i] * 4.5;
+				break;
+			case "A0":
+				sum += score[i] * 4.0;
+				break;
+			case "B+":
+				sum += score[i] * 3.5;
+				break;
+			case "B0":
+				sum += score[i] * 3.0;
+				break;
+			case "C+":
+				sum += score[i] * 2.5;
+				break;
+			case "C0":
+				sum += score[i] * 2.0;
+				break;
+			case "D+":
+				sum += score[i] * 1.5;
+				break;
+			case "D0":
+				sum += score[i] * 1.0;
+				break;
+			case "F":
+				sum += score[i] * 0.0;
+				break;
+			}
+		}
+
+		System.out.println(sum / scoreSum);
+
+		sc.close();
+	}
+
+}
