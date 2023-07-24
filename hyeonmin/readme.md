@@ -22,7 +22,7 @@
 <br><br>
 11. commit/push 진행
 
-## invaild path error 발생
+## invalid path error 발생
 pull 중에 error가 발생했다.
 ![Alt text](image.png)
 
