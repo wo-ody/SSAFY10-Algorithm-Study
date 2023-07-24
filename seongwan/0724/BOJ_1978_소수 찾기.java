@@ -6,8 +6,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int cnt = 0;    //소수 개수
-		int[] arr = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 }; 
-		// 소수 판정 배열 31^2=961,37^2=1369 1000이하의 자연수이므로 31까지
+		int[] arr = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31,37 }; 
+		// 소수 판정 배열 31^2=961,37^2=1369 1000이하의 자연수이므로 37까지
         for (int i = 0; i < N; i++) {
 			int x = sc.nextInt();  
 			for (int j = 0; j < 11; j++) {
