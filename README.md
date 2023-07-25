@@ -94,8 +94,8 @@
 | rael     | ✅  |    ✅   |      |        |      |     |    | 
 | seohyun  | ✅   |    ✅   |      |        |      |     |    | 
 | seongwan | ✅    |    ✅   |      |        |      |     |    | 
-| taegyung |✅ |       | ✅     |        |      |     |    | 
-| woojae   | ✅  |       |   ✅   |        |      |     |    | 
+| taegyung |✅ |  ✅   |     |        |      |     |    | 
+| woojae   | ✅  |    ✅   |      |        |      |     |    | 
 
 </details>
 <br>
