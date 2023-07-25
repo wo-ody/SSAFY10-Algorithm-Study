@@ -82,20 +82,20 @@
 
 |  이름  | 07/24 | 07/25 | 07/26 | 07/27 | 07/28 | 07/29 | 07/30 | 
 |:--------:|:-----:|:-----:|:----:|:------:|:-----:|:-----:|:-----:|
-| jinwoo   |     |       |      |        |      |     |    | 
-| changhee |   |       |      |        |      |     |    | 
-| dahui    |    |       |      |        |      |     |    | 
-| hayeong  |   |       |      |        |      |     |    | 
-| hyeonguk |    |       |      |        |      |     |    | 
-| hyeonmin |    |       |      |        |      |     |    | 
-| jeongho  |    |       |      |        |      |     |    | 
-| jongkook |  |       |      |        |      |     |    | 
-| narin    | |       |      |        |      |     |    | 
-| rael     |   |       |      |        |      |     |    | 
-| seohyun  |    |       |      |        |      |     |    | 
-| seongwan |     |       |      |        |      |     |    | 
-| taegyung | |       |      |        |      |     |    | 
-| woojae   |   |       |      |        |      |     |    | 
+| jinwoo   | ✅    |   ✅    |      |        |      |     |    | 
+| changhee | ✅  |    ✅   |      |        |      |     |    | 
+| dahui    | ✅   |   ✅    |      |        |      |     |    | 
+| hayeong  | ✅  |   ✅    |      |        |      |     |    | 
+| hyeonguk | ✅   |  ✅     |      |        |      |     |    | 
+| hyeonmin | ✅   |   ✅    |      |        |      |     |    | 
+| jeongho  | ✅   |   ✅    |      |        |      |     |    | 
+| jongkook | ✅ |    ✅   |      |        |      |     |    | 
+| narin    | ✅|    ✅   |      |        |      |     |    | 
+| rael     | ✅  |    ✅   |      |        |      |     |    | 
+| seohyun  | ✅   |    ✅   |      |        |      |     |    | 
+| seongwan | ✅    |    ✅   |      |        |      |     |    | 
+| taegyung |✅ |  ✅   |     |        |      |     |    | 
+| woojae   | ✅  |    ✅   |      |        |      |     |    | 
 
 </details>
 <br>
