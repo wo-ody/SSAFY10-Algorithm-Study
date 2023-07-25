@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class L7_10798 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		char[][] word = new char[5][15];
+
+		for (int i = 0; i < 5; i++) {
+			String arr = sc.next();
+			for (int j = 0; j < arr.length(); j++) {
+				word[i][j] = arr.charAt(j);
+			}
+		}
+
+		for (int j = 0; j < 15; j++) {
+			for (int i = 0; i < 5; i++) {
+				if (word[i][j] == '\u0000') {
+					continue;
+				} else {
+					System.out.print(word[i][j]);
+				}
+			}
+		}
+		sc.close();
+	}
+
+}
