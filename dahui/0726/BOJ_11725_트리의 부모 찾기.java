@@ -28,7 +28,6 @@ public class Boj_11725 {
         boolean[] visited = new boolean[n]; // 방문 체크 확인
         int[] parentNode = new int[n]; // 부모 노드 저장
 
-        // BFS
         Queue<Integer> queue = new LinkedList<>(); //BFS 용 큐
         queue.add(0); //루트 노드 입력
         visited[0] = true;
