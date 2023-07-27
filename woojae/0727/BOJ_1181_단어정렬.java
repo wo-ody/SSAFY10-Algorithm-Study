@@ -18,6 +18,7 @@ public class Main {
 		
 		Collections.sort(arr, (str1, str2) -> str1.length() == str2.length() ? str1.compareTo(str2) : str1.length() - str2.length());
 		// 람다식을 이용해 정렬, 음수 또는 0이면 이미 사전순으로 정렬된 상태, 양수면 위치 스왑
+		// str1.compareTo(str2)는 비교가 불가능한 지점의 각 문자의 아스키값을 기준으로 비교
 		for (String str : arr)
 			System.out.println(str);
 	}
