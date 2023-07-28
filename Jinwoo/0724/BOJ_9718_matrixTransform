@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[][] G;
+		int r, c;
+		int o, e;
+		for (int t = 0; t < n; t++) {
+			o = e = 0;
+			r = sc.nextInt();
+			c = sc.nextInt();
+			G = new int[r][c];
+			for (int i = 0; i < r; i++) {
+				for (int j = 0; j < c; j++) {
+					G[i][j] = sc.nextInt();
+					if ((i+j)%2==0) e += G[i][j];
+					else o += G[i][j];
+				}
+			}
+			if (e==o) System.out.println("YES");
+			else System.out.println("NO");
+		}
+		
+		sc.close();
+	}
+
+}
