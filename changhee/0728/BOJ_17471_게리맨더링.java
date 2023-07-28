@@ -58,21 +58,16 @@ public class Main {
 		if (len == 0) {
 			int p1 = 0, p2 = 0;
 			for (int i = 1; i < n + 1; i++) {
-				if (partition[i] == 0)
-					p1 = i;
-				if (partition[i] == 1)
-					p2 = i;
+				if (partition[i] == 0) p1 = i;
+				if (partition[i] == 1) p2 = i;
 			}
 				
 			if (p1 == p2 || !bfs(p1) || !bfs(p2)) return;
 			
 			int result = 0;
 			for (int i = 1; i < n + 1; i++) {
-				if (partition[i] == 1) {
-					result += cost[i];
-				} else {
-					result -= cost[i];
-				}
+				if (partition[i] == 1) result += cost[i];
+				else result -= cost[i];
 			}
 			
 			answer = Math.min(answer, Math.abs(result));
