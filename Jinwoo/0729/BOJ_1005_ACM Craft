@@ -1,0 +1,50 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    
+    public static void main(String[] args) throws IOException{
+        int t = Integer.parseInt(bf.readLine());
+        
+        for (int lll=0;lll<t;lll++){
+            String[] st = bf.readLine().split(" ");
+            int n = Integer.parseInt(st[0]), k = Integer.parseInt(st[1]);
+            
+            int[] D = new int[n+1], dp = new int[n+1];
+            st = bf.readLine().split(" ");
+            for (int i=1; i<=n; i++) D[i] = Integer.parseInt(st[i-1]);
+            
+            List<List<Integer>> list = new ArrayList<>();
+            for (int i=0; i<n+1; i++) list.add(new ArrayList<Integer>());
+            
+            int[] high = new int[n+1];
+            for (int i=0; i<k; i++){
+                st = bf.readLine().split(" ");
+                list.get(Integer.parseInt(st[0])).add(Integer.parseInt(st[1]));
+                high[Integer.parseInt(st[1])]++;
+            }
+            
+            int w = Integer.parseInt(bf.readLine());
+            
+            Queue<Integer> q = new LinkedList<>();
+            for (int i=1; i<=n; i++){
+                dp[i] = D[i];
+                if (high[i]==0) q.add(i);
+            }
+            while(!q.isEmpty()) {
+                int now = q.poll();
+                
+                for(Integer i : list.get(now)) {
+                    dp[i] = Math.max(dp[i], dp[now] + D[i]);
+                    high[i]--;
+                    if (high[i]==0) q.add(i);
+                }
+            }
+            
+            bw.write(""+dp[w]+"\n");
+        }
+        bw.flush();
+    }//main
+}
