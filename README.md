@@ -90,7 +90,7 @@
 | hyeonguk |✅     |       |      |        |      |     |    | 
 | hyeonmin |✅     |       |      |        |      |     |    | 
 | jeongho  |✅     |       |      |        |      |     |    | 
-| jongkook |❌     |       |      |        |      |     |    | 
+| jongkook |🔺     |       |      |        |      |     |    | 
 | narin    |✅     |       |      |        |      |     |    | 
 | rael     |✅     |       |      |        |      |     |    | 
 | seohyun  |✅     |       |      |        |      |     |    | 
