@@ -14,10 +14,10 @@ public class Main {
 		int answer = 0;
 		
 		loop1:
-		for(int i = 0; i <= 50; i++)
+		for(int i = 0; i <= 50; i++)  // 모든 경우의 수에 대해 조사
 			for(int j = 0; j <= 50; j++)
 				for(int k = 0; k <= 50; k++) {
-					if(a * i + b * j + c * k == n) {
+					if(a * i + b * j + c * k == n) {  // 조건을 만족하면 모든 반복 종료
 						answer = 1;
 						break loop1;
 					}
