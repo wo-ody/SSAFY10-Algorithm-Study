@@ -8,17 +8,19 @@ public class Main {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringTokenizer st;
 	static int n;
+	static int max = 0;
 	static int[][] arr;
 	static int answer = 0;
 	public static void main(String[] args) throws IOException {
 		n = Integer.parseInt(br.readLine());
 		arr = new int[n][2];
-		int[] schedule = new int[1001];  // 과제에 대한 최대 스케쥴
 		for(int i = 0; i < n; i++) {
 			st = new StringTokenizer(br.readLine());
 			arr[i][0] = Integer.parseInt(st.nextToken());
 			arr[i][1] = Integer.parseInt(st.nextToken());
+			max = max < arr[i][0] ? arr[i][0] : max;
 		}
+		int[] schedule = new int[max + 1];  // 과제에 대한 최대 스케쥴, 마감 기한의 최소는 1이므로 인덱스를 맞추기 위해 더미 삽입
 		Arrays.sort(arr, (o1, o2) -> o1[1] == o2[1] ? o1[0] - o2[0] : o2[1] - o1[1]);  // 동일 점수라면 마감일이 빠른 순으로, 그게 아니라면 점수가 높은 순으로 정렬
 		for (int i = 0; i < n; i++) {
 			if(schedule[arr[i][0]] == 0) {  // 해당 마감기한에 시작하려는 과제가 없다면
