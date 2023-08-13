@@ -42,4 +42,4 @@ alias로 명령어를 한번에 만들어보자
 
 만든 명령어는 아래처럼 사용하면 된다.
 
-> git Algo -m "commit message"
+> TESTTESTTESTTESTTEST
