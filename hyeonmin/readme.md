@@ -31,3 +31,15 @@ pull 중에 error가 발생했다.
 해결방법은 간단하다. 다음 코드를 순서대로 실행시키면 된다.
 1. > git config core.protectNTFS false
 2. > git checkout -f HEAD
+
+## add, commit, pull, push가 너무 귀찮다..
+
+alias로 명령어를 한번에 만들어보자
+
+> git config --global alias.`Algo` '!f() { git add -A && git commit -m "$@" && git push; }; f'
+
+`Algo`에 원하는 명령어 이름을 넣으면 된다. (⚠️ git 기본 명령어와 겹치면 안됨)
+
+만든 명령어는 아래처럼 사용하면 된다.
+
+> git Algo -m "commit message"
