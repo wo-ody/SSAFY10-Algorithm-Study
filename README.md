@@ -103,6 +103,30 @@
 
 </details>
 <br>
+
+<details>
+  <summary> 벌금 COUNT </summary>
+
+|  이름  | COUNT |  벌금  |
+|:--------:|:-----:|:-----:|
+| jinwoo   |1       | 1000원   |
+| changhee |0       | 1000원   |
+| dahui    |4       | 1000원   |
+| hayeong  |1       | 1000원   |
+| hyeonguk |0       | 1000원   |
+| hyeonmin |0       | 1000원   |
+| jeongho  |6       | 1000원   |
+| jongkook |2      | 1000원   |
+| minsu |-     | 1000원   |
+| narin    |2       | 1000원   |
+| rael     |2       | 1000원   |
+| seohyun  |1       | 1000원   |
+| seongwan |0       | 1000원   |
+| taegyung |1       | 1000원   |
+| woojae   |0       | 1000원   |
+
+</details>
+<br>
 <details>
   <summary> past </summary>
 <details>
