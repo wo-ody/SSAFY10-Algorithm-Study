@@ -117,7 +117,7 @@
 | hyeonmin |0       | 1000원   |
 | jeongho  |6       | 1000원   |
 | jongkook |2      | 1000원   |
-| minsu |-     | 1000원   |
+| minsu |0     | 1000원   |
 | narin    |2       | 1000원   |
 | rael     |2       | 1000원   |
 | seohyun  |1       | 1000원   |
