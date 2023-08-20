@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_1783_공주님을구해라 {
+public class BOJ_17836_공주님을구해라 {
 
 	// 명검 획득하지 않고 BFS
 	// 명검까지 BFS+명검부터 공주까지 거리
