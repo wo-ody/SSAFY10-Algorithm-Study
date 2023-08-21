@@ -36,7 +36,7 @@ public class SW_3234_준환이의양팔저울 {
 		System.out.println(sb);
 	}
 	
-	//순서 정하기  
+	//순서 정하기  -> 순열
 	static void perm(int cnt) {
 		if(cnt == N) {		//기저조건
 			sub(0,0,0);//다 정해지고 나면 왼쪽 오른쪽 부분집합 돌리기  
