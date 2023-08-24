@@ -29,7 +29,7 @@ public class BOJ_14891_톱니바퀴 {
 			st = new StringTokenizer(br.readLine());
 			int num = Integer.parseInt(st.nextToken()); // 몇번 톱니바퀴를
 			int w = Integer.parseInt(st.nextToken()); // 어느 방향으로
-			solve(num, w);
+			checkDir(num, w);
 		}
 
 		// 총 K번만큼 회전을 다 시켰다면 점수 합산
@@ -50,60 +50,25 @@ public class BOJ_14891_톱니바퀴 {
 	}
 
 	// 어떤 톱니바퀴를 회전시킬지 결정
-	static void solve(int num, int w) {
+	static void checkDir(int num, int w) {
 		HashMap<Integer, Integer> hashMap = new HashMap<>();
 		hashMap.put(num, w);
-		// 1번 톱니바퀴를 회전시켜야 한다면 2, 3, 4를 순차적으로 봐주고 맞닿은 극이 같으면 stop
-		if (num == 1) {
-			// 2번 톱니바퀴가 도는 경우
-			if (wheel[1][2] != wheel[2][6]) {
-				hashMap.put(2, w * -1);
-				// 3번 톱니바퀴가 도는 경우
-				if (wheel[2][2] != wheel[3][6]) {
-					hashMap.put(3, w);
-					if (wheel[3][2] != wheel[4][6]) {
-						hashMap.put(4, w * -1);
-					}
-				}
-			}
-		} else if (num == 2) {
-			// 1번 톱니바퀴가 도는 경우
-			if (wheel[1][2] != wheel[2][6]) {
-				hashMap.put(1, w * -1);
-			}
-			// 3번 톱니바퀴가 도는 경우
-			if (wheel[2][2] != wheel[3][6]) {
-				hashMap.put(3, w * -1);
-				if (wheel[3][2] != wheel[4][6]) {
-					hashMap.put(4, w);
-				}
-			}
-		} else if (num == 3) {
-			// 4번 톱니바퀴가 도는 경우
-			if (wheel[3][2] != wheel[4][6]) {
-				hashMap.put(4, w * -1);
-			}
-			// 2번 톱니바퀴가 도는 경우
-			if (wheel[2][2] != wheel[3][6]) {
-				hashMap.put(2, w * -1);
-				if (wheel[1][2] != wheel[2][6]) {
-					hashMap.put(1, w);
-				}
-			}
-		} else if (num == 4) {
-			// 3번 톱니바퀴가 도는 경우
-			if (wheel[3][2] != wheel[4][6]) {
-				hashMap.put(3, w * -1);
-				// 2번 톱니바퀴가 도는 경우
-				if (wheel[2][2] != wheel[3][6]) {
-					hashMap.put(2, w);
-					if (wheel[1][2] != wheel[2][6]) {
-						hashMap.put(1, w * -1);
-					}
-				}
+		// 좌측으로 먼저 검사
+		for (int i = num - 1; i >= 1; i--) {
+			if (wheel[i + 1][6] != wheel[i][2]) {
+				hashMap.put(i, hashMap.get(i + 1) * -1);
+			} else {
+				break;
 			}
 		}
-
+		// 우측으로 검사
+		for (int i = num + 1; i <= 4; i++) {
+			if (wheel[i - 1][2] != wheel[i][6]) {
+				hashMap.put(i, hashMap.get(i - 1) * -1);
+			} else {
+				break;
+			}
+		}
 		turn(hashMap);
 	}
 
