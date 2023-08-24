@@ -120,11 +120,11 @@
 | minsu |0     | 1000원   |
 | narin    |3       | 1000원   |
 | rael     |2       | 1000원   |
-| seohyun  |1       | 1000원   |
+| seohyun  |2       | 1000원   |
 | seongwan |0       | 1000원   |
 | taegyung |2       | 1000원   |
 | woojae   |0       | 1000원   |
-| sum      |22      | 23000원  |
+| sum      |25      | 25000원  |
 
 </details>
 <br>
