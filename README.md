@@ -112,19 +112,19 @@
 | jinwoo   |1       | 1000원   |
 | changhee |0       | 1000원   |
 | dahui    |5       | 1000원   |
-| hayeong  |1       | 1000원   |
+| hayeong  |2       | 1000원   |
 | hyeonguk |0       | 1000원   |
 | hyeonmin |0       | 1000원   |
 | jeongho  |8       | 1000원   |
 | jongkook |2      | 1000원   |
-| minsu |0     | 1000원   |
+| minsu |1     | 1000원   |
 | narin    |3       | 1000원   |
 | rael     |2       | 1000원   |
 | seohyun  |2       | 1000원   |
 | seongwan |0       | 1000원   |
 | taegyung |2       | 1000원   |
 | woojae   |0       | 1000원   |
-| sum      |26      | 25000원  |
+| sum      |28      | 28000원  |
 
 </details>
 <br>
