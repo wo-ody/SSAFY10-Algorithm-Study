@@ -126,7 +126,7 @@
 | seongwan |0       | 1000원   |
 | taegyung |2       | 1000원   |
 | woojae   |0       | 1000원   |
-| sum      |28      | 28000원  |
+| sum      |30      | 30000원  |
 
 </details>
 <br>
