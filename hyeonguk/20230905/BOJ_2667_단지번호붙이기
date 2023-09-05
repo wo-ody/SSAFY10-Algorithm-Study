@@ -1,0 +1,59 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+	// 동, 서, 남, 북
+	static int[] dy = {0, 0, 1, -1};
+	static int[] dx = {1, -1, 0, 0};
+	
+	static int N, cnt;
+	static char[][] map;
+	static List<Integer> list = new ArrayList<>();
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		N = Integer.parseInt(br.readLine());
+		
+		map = new char[N][N];
+		
+		for(int i=0; i<N; i++) {
+			map[i] = br.readLine().toCharArray();
+		}
+		
+		for(int i=0; i<N; i++) {
+			for(int j=0; j<N; j++) {
+				if(map[i][j] == '1') {
+					cnt = 0;
+					dfs(i, j);
+					list.add(cnt);
+				}
+			}
+		}
+		
+		list.sort((Integer o1, Integer o2)->{return o1-o2;});
+		
+		System.out.println(list.size());
+		for(int num : list) {
+			System.out.println(num);
+		}
+
+	}
+	
+	static void dfs(int y, int x) {
+		map[y][x] = '0';
+		cnt+=1;
+		
+		for(int d=0; d<4; d++) {
+			int ny = y + dy[d];
+			int nx = x + dx[d];
+			if(ny < 0 || ny >=N || nx < 0 || nx >= N) continue;
+			
+			if(map[ny][nx] == '1') {
+				dfs(ny, nx);
+			}
+		}
+	}
+}
