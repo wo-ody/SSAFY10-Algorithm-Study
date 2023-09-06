@@ -4,7 +4,8 @@
 
 - 기간: 2023년 7월 17일 월요일 ~
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/), [코드트리](https://www.codetree.ai) , [SWEA](https://swexpertacademy.com/)
-
+- 백준 : 실버 이상
+- 프로그래머스 : 레벨 1 이상
 
 <br/>
 
