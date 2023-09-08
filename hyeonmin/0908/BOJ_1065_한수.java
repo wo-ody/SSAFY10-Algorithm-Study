@@ -43,7 +43,5 @@ public class BOJ_1065_한수 {
 		if(N == 1000) ans--;
 		System.out.println(ans);
 		
-		
 	}
-
 }
