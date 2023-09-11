@@ -106,7 +106,7 @@
 | changhee |0       | 1000원   |
 | dahui    |7       | 1000원   |
 | hayeong  |3       | 1000원   |
-| hyeonguk |0       | 1000원   |
+| hyeonguk |1       | 1000원   |
 | hyeonmin |1       | 1000원   |
 | jeongho  |9       | 1000원   |
 | jongkook |2      | 1000원   |
@@ -117,7 +117,7 @@
 | seongwan |0       | 1000원   |
 | taegyung |4       | 1000원   |
 | woojae   |0       | 1000원   |
-| sum      |38      | 38000원  |
+| sum      |38      | 10000원(-28000원)  |
 
 </details>
 <br>
