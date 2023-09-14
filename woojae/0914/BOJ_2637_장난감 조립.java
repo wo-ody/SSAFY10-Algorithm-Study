@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	static StringBuilder sb = new StringBuilder();
 	static StringTokenizer st;
 	static int n, m;
 	static int x, y, k;
@@ -37,9 +38,8 @@ public class Main {
 			in_dgree[x]++;
 		}
 		tp_sort();
-		for(int j = 1; j <= n; j++)
-			if(assembly_info[n][j] != 0)
-				System.out.println(j + " " + assembly_info[n][j]);
+		for(int j = 1; j <= n; j++) if(assembly_info[n][j] != 0) sb.append(j).append(" ").append(assembly_info[n][j]).append("\n");
+		System.out.println(sb);
 
 	}
 	
@@ -54,10 +54,15 @@ public class Main {
 				make_component = info[0];
 				amount = info[1];
 				if(Arrays.stream(assembly_info[current_component]).sum() == 0)  // 기본 부품들은 다른 부품으로 만들 수 없으므로 다른 부품 정보가 모두 0
-					assembly_info[make_component][current_component] += amount;
+					assembly_info[make_component][current_component] += amount;  // 결과적으로 향후 기본 부품만 기록해서 사용하게 됨
 				else {  // 중간 부품이라면
 					for (int i = 1; i <= n; i++)  // 어떤 부품이 필요한지 모르니 전부 탐색
 						assembly_info[make_component][i] += (assembly_info[current_component][i] * amount);
+					// 중간 부품을 만들기 위해 필요한 기본 부품의 수를 알 필요가 있음
+					// (해당 수량은 필요한 수량의 수) x (중간 부품을 만들기 위해 필요한 기본 부품의 수(이는 이미 해당 중간 부품에 기록되어 있다.))
+					// 필요한 중간 부품을 만들기 위한 기본 부품(assembly_info[current_component][i]) x 필요한 중간 부품의 수(amount)
+					// 예를 들어 7번 부품을 만드는데 5번 부품 2개가 필요하다면 7번 부품을 만들 때 필요한 기본 부품의 수는 5번 부품을 만드는 데 필요한 기본 부품의 수 x 2가 된다.
+					// 또한 n번 부품이 완성 부품이므로 n번 부품에서 기본 부품에 해당하는 녀석들을 확인하면 된다.
 				}
 				in_dgree[make_component]--;
 				if(in_dgree[make_component] == 0)
