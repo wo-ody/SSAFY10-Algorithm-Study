@@ -15,23 +15,20 @@ public class BOJ_2018_수들의합5 {
         int left = 1;
         int right = 1;
         int sum = 1;
-        int ans = 0;
-        while(left<=right){
+        int ans = 1;
+        while(right!=N){
             if(left>N || right>N) break;
             if(sum == N){
                 ans++;
                 right++;
-                if(left>N || right>N) break;
                 sum+=arr[right];
             }
             else if(sum >N){
                 sum-=arr[left];
                 left++;
-                if(left>N || right>N) break;
 
             } else{
                 right++;
-                if(left>N || right>N) break;
                 sum+=arr[right];
 
             }
