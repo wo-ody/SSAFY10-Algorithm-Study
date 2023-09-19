@@ -48,4 +48,3 @@ public class Main {
 		return parent[x] = findParent(parent[x]);
 	}
 }
-
