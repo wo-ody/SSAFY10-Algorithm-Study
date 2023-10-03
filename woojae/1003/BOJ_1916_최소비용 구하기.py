@@ -1,5 +1,8 @@
+import sys
 import math
 from heapq import *
+
+input = sys.stdin.readline
 
 
 class Node:
@@ -11,7 +14,7 @@ class Node:
         return self.cost < other.cost
 
 
-class main:  #PyPy3로 안 하면 시간초과 남
+class main:  # 입력이 엄첨 길기 때문에 입력받을 때 처리받지 않으면 시간 초과 발생
     def __init__(self):
         self.n = int(input())
         self.m = int(input())
