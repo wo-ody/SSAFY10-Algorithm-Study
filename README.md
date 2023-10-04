@@ -88,10 +88,10 @@
 | jongkook |1       |       |1       |        |       |1      |3       | 
 | minsu    |1       |1       |       |1        |       |      |3       | 
 | narin    |       |3       |1       |2        |       |      |6       | 
-| rael     |       |       |       |        |       |      |       | 
-| seohyun  |       |       |       |        |       |      |       | 
+| rael     |       |       |       |        |       |      |0       | 
+| seohyun  |       |       |       |        |       |      |0       | 
 | seongwan |6       |2       |1       |1        |1       |1      |12       | 
-| taegyung |       |       |       |        |       |      |       | 
+| taegyung |       |       |       |        |       |      |0       | 
 | woojae   |1       |1       |3       |1        |1       |1      |8       | 
 
 </details>
