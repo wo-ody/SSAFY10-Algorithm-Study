@@ -1,0 +1,43 @@
+import java.util.*;
+import java.io.*;
+public class Main {
+
+	public static void main(String[] args) throws Exception{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		char[] T = br.readLine().toCharArray(), P = br.readLine().toCharArray();
+		int n = P.length, m = T.length, j=0;
+		int[] Pi = new int[n];
+		for (int i=1; i<n; i++) {
+			if (P[i] == P[j]) {
+				j++;
+			}else {
+				while (j>0 && P[i] != P[j]) j = Pi[j-1];
+				if (P[i]==P[j]) j++;
+			}
+			Pi[i] = j;
+		}
+		
+		int cnt=0;
+		List<Integer> idxList = new ArrayList<>();
+		int i=0; j=0;
+		while (i<=m) {
+			if (j==n) {
+				cnt++; idxList.add(i-j+1);
+				j = Pi[j-1];
+			}
+			if (i==m) break;
+			if (T[i] == P[j]) {
+				j++;
+			} else {
+				while (j>0 && T[i] != P[j]) j = Pi[j-1];
+				if (T[i] == P[j]) j++;
+			}
+			i++;
+		}
+		StringBuilder sb = new StringBuilder();
+		sb.append(cnt).append("\n");
+		for (int a : idxList) sb.append(a).append(" ");
+		System.out.println(sb);
+	}
+
+}
