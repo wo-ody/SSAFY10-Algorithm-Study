@@ -108,10 +108,10 @@
 | dahui    |8       |0       |8000    |
 | hayeong  |4       |0       |4000    |
 | hyeonguk |1       |0       |1000    |
-| hyeonmin |7       |0       |6000    |
+| hyeonmin |6       |0       |6000    |
 | jeongho  |10       |2       |16000   |
 | jongkook |2      |0       |2000    |
-| minsu |2     |0       |2000    |
+| minsu |3     |0       |3000    |
 | narin    |8       |0       |8000    |
 | rael     |4       |0       |4000    |
 | seohyun  |8       |0       |8000    |
