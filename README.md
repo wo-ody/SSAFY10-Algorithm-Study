@@ -109,7 +109,7 @@
 | hayeong  |4       |0       |4000    |
 | hyeonguk |1       |0       |1000    |
 | hyeonmin |9       |0       |9000    |
-| jeongho  |10       |2       |16000   |
+| jeongho  |10       |3       |19000   |
 | jongkook |3      |0       |3000    |
 | minsu |5     |0       |5000    |
 | narin    |9       |0       |9000    |
@@ -118,7 +118,7 @@
 | seongwan |0       |0       |0       |
 | taegyung |9       |0       |9000    |
 | woojae   |0       |0       |0       |
-| sum      |72      |2       | 50000원(-28000원)  |
+| sum      |72      |3       | 53000원(-28000원)  |
 
 </details>
 <br>
