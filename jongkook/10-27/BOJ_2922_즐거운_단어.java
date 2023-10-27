@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class BOJ_2922_즐거운_단어 {
-    static int blankCnt;
+    static int blankCnt; 
     static String vowel = "AEIOU";
     static long ans = 0;
     static char[] arr;
