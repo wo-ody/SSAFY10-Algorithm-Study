@@ -111,14 +111,14 @@
 | hyeonmin |9       |0       |9000    |
 | jeongho  |10       |3       |19000   |
 | jongkook |4      |0       |4000    |
-| minsu |6     |0       |6000    |
+| minsu |7     |0       |7000    |
 | narin    |9       |0       |9000    |
 | rael     |4       |0       |4000    |
 | seohyun  |8       |0       |8000    |
 | seongwan |0       |0       |0       |
 | taegyung |9       |0       |9000    |
 | woojae   |0       |0       |0       |
-| sum      |74      |3       | 55000원(-28000원)  |
+| sum      |75      |3       | 56000원(-28000원)  |
 
 </details>
 <br>
