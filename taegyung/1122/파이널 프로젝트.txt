@@ -1,0 +1,5 @@
+Plan list, detail, insert, delete, update
+Day list, detail, insert, delete, update
+Attraction list, detail (list에서 필터를 범위 검색, 지역검색, 아이디별, 팔로우한 유저, 최근순, 좋아요순 등등 필터를 걸 수 있음)
+Post list, detail, insert, update, delete
+장소 즐겨찾기 추가, 삭제
