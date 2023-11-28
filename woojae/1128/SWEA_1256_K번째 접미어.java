@@ -28,6 +28,10 @@ public class Solution {
 		for(int i = 0; i < str.length(); i++)  // 순차적으로 접미어 구해서 리스트에 저장
 			suffix.add(str.substring(i));
 		Collections.sort(suffix);  // 사전적으로 정렬
-		sb.append(suffix.get(k-1)).append("\n");  // 사전적으로 정렬 됐을 때 k번 째(인덱스 상 k-1) 저장
+		try {
+			sb.append(suffix.get(k-1)).append("\n");  // 사전적으로 정렬 됐을 때 k번 째(인덱스 상 k-1) 저장
+		} catch(Exception e) {
+			sb.append("none").append("\n");  // 문자열이 존재하지 않는다면 -> 하지만 tc에는 그런 케이스는 존재하지 않음 -> 해당 예외 처리하지 않아도 정답
+		}
 	}
 }
