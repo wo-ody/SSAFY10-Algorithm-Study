@@ -103,10 +103,8 @@
 </details>
 <br>
 
-<br>
-
 <details>
-  <summary> 벌금 COUNT </summary>
+  <summary> 벌금 COUNT -> 정산 완료! -> 진우, 현민, 형욱 퇴장 </summary>
 
 |  이름  | 1000 COUNT | 3000 COUNT |  벌금총합  |
 |:--------:|:-----:|:-----:|:-----:|
@@ -125,7 +123,7 @@
 | seongwan |0       |0       |0       |
 | taegyung |10       |3       |19000    |
 | woojae   |0       |0       |0       |
-| sum      |92      |8       |22000원(-94000원)  |
+| sum      |92      |8       |0원(-106000원)  |
 
 </details>
 <br>
