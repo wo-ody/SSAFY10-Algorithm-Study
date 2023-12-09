@@ -78,6 +78,31 @@
 | 벌급 납부 완료 | 🔺 |
 | 쉬는날 | 🥳 |
 
+
+<br>
+
+<details>
+  <summary> 벌금 COUNT2 </summary>
+
+|  이름  | 1000 COUNT | 
+|:--------:|:-----:|
+| changhee |       | 
+| dahui    |       | 
+| hayeong  |       | 
+| jeongho  |10     |
+| jongkook |       | 
+| minsu    |6      |
+| narin    |       | 
+| rael     |1      |
+| seohyun  |6      |
+| seongwan |       | 
+| taegyung |       | 
+| woojae   |       | 
+| sum      |23     | 
+
+</details>
+<br>
+
 <br>
 
 <details>
