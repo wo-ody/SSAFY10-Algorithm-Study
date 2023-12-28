@@ -30,7 +30,6 @@ public class BOJ_11052_카드구매하기 {
 		}
 		
 		System.out.println(dp[N]);
-
 	}
 
 }
