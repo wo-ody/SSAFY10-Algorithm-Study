@@ -124,8 +124,27 @@
 
 </details>
 <br>
+
+
 <details>
-  <summary> Weekly 진행상황 </summary>
+  <summary> Weekly 진행상황( 총 몇문제 풀었는지 !) - 이번주</summary>
+
+  |  이름  | 1/1 ~ 1/7 | 1/8 ~ 1/14 | 1/15 ~ 1/21 | 1/22 ~ 1/28 | 1/29 ~ 2/4 | 
+|:--------:|:-----:|:-----:|:-----:|:----:|:------:|  
+| dahui    |5       |5       |5        |5        | 5       |  
+| jeongho  |0       |5       |5        |0        | 0       |
+| jongkook |3       |5       |3        |4        | 5       | 
+| minjun   |-       |-       |7        |5        | 4       |
+| minsu    |5       |5       |5        |5        | 0       |
+| rael     |4       |5       |5        |5        | 2       |
+| seohyun  |2       |5       |5        |4        | 0       |
+| seongwan |5       |5       |5        |5        | 6       | 
+| woojae   |5       |5       |5        |5        | 5       | 
+</details>
+<br>
+<details>
+  <summary> Weekly 진행상황 - 과거</summary>
+
 <details>
   <summary> 7월 4쨋주</summary>
 
@@ -676,6 +695,7 @@
 </details>
 </details>
 
+</details>
 <br/>
 
 

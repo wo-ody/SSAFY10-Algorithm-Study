@@ -1,0 +1,55 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Stack;
+import java.util.StringTokenizer;
+
+class Tower {
+	int number, height;
+
+	public Tower(int number, int height) {
+		this.number = number;
+		this.height = height;
+	}
+}
+
+public class Main {
+	private static int N;
+	private static Stack<Tower> stack;
+
+	public static void main(String[] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		StringBuilder sb = new StringBuilder();
+
+		N = Integer.parseInt(br.readLine());
+		stack = new Stack<>();
+		int[] tower = new int[N + 1];
+
+		st = new StringTokenizer(br.readLine());
+
+		for (int i = 1; i <= N; i++) {
+			tower[i] = Integer.parseInt(st.nextToken());
+		}
+
+		for (int i = 1; i <= N; i++) {
+
+			while (!stack.isEmpty()) {
+				if (stack.peek().height < tower[i]) {
+					stack.pop();
+				} else {
+					sb.append(stack.peek().number).append(" ");
+					break;
+				}
+			}
+
+			if (stack.isEmpty()) {
+				sb.append(0).append(" ");
+			}
+
+			stack.push(new Tower(i, tower[i]));
+
+		}
+
+		System.out.println(sb);
+	}
+}

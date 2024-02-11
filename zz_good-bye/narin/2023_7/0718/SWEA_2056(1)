@@ -1,0 +1,25 @@
+package swea.d1;
+
+import java.util.Scanner;
+
+public class D1_2056_1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int T = sc.nextInt();
+		int monthly[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+		for (int tc = 1; tc <= T; tc++) {
+			int num = sc.nextInt();
+
+			int year = num / 10000;
+			int month = (num - year * 10000) / 100;
+			int day = num % 100;
+
+			if (month >= 1 && month <= 12 && day <= monthly[month - 1])
+				System.out.printf("#%d %04d/%02d/%02d\n", tc, year, month, day);
+			else
+				System.out.printf("#%d -1\n", tc);
+		}
+		sc.close();
+	}
+}
