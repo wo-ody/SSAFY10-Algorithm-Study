@@ -137,7 +137,7 @@
 | minjun   |-       |-       |7        |5        | 4       |
 | minsu    |5       |5       |5        |5        | 0       |
 | rael     |4       |5       |5        |5        | 2       |
-| seohyun  |2       |5       |5        |4        | 0       |
+| seohyun  |2       |5       |5        |4        | 3       |
 | seongwan |5       |5       |5        |5        | 6       | 
 | woojae   |5       |5       |5        |5        | 5       | 
 </details>
