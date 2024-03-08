@@ -127,19 +127,36 @@
 
 
 <details>
+  <summary> Weekly 진행상황( 총 몇문제 풀었는지 !) - 민수 퇴장 -> 정산 완료 </summary>
+
+  |  이름  | 2/5 ~ 2/11 | 2/12 ~ 2/18 |
+|:--------:|:-----:|:-----:|
+| dahui    |6       |5       |
+| jeongho  |1       |0       |
+| jongkook |2       |1       |
+| minjun   |1       |4       |
+| minsu    |3       |0       |
+| rael     |0       |5       |
+| seohyun  |4       |5       |
+| seongwan |6       |5       |
+| woojae   |5       |5       |
+</details>
+<br>
+
+<details>
   <summary> Weekly 진행상황( 총 몇문제 풀었는지 !) - 이번주</summary>
 
-  |  이름  | 2/5 ~ 2/11 | 2/12 ~ 2/18 | 2/19 ~ 2/25 | 
-|:--------:|:-----:|:-----:|:-----:|
-| dahui    |6       |5       |5       |
-| jeongho  |1       |0       |4       |
-| jongkook |2       |1       |5       |
-| minjun   |1       |4       |8       |
-| minsu    |3       |0       |-       |
-| rael     |0       |5       |5       |
-| seohyun  |4       |5       |5       |
-| seongwan |6       |5       |7       |
-| woojae   |5       |5       |5       |
+  |  이름  | 2/19 ~ 2/25 | 2/26 ~ 3/3 | 
+|:--------:|:-----:|:-----:|
+| dahui    |5       |5       |
+| jeongho  |4       |4       |
+| jongkook |5       |1       |
+| minjun   |8       |3       |
+| rael     |5       |5       |
+| seohyun  |5       |5       |
+| seongwan |7       |16      |
+| woojae   |5       |5       |
+| 벌금     |1       |7       |
 </details>
 <br>
 <details>
