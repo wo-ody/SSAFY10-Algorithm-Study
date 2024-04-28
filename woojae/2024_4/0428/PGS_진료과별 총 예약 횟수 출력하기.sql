@@ -1,0 +1,6 @@
+SELECT MCDP_CD AS "진료과 코드", COUNT(*) AS "5월예약건수"
+FROM APPOINTMENT
+WHERE APNT_YMD
+LIKE "2022-05%"
+GROUP BY MCDP_CD
+ORDER BY 5월예약건수, MCDP_CD  # 큰따옴표로 감싸면 컬럼명이 아닌 문자열로 인식
