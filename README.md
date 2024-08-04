@@ -2,7 +2,7 @@
 
 > 꾸준히 알고리즘 풀기 위한 인증 스터디입니다. 
 
-- 기간: 2023년 7월 17일 월요일 ~
+- 기간: 2023년 7월 17일 월요일 ~ 2024년 4월
 - 참고 사이트: [프로그래머스](https://programmers.co.kr/learn/challenges), [백준](https://www.acmicpc.net/), [코드트리](https://www.codetree.ai) , [SWEA](https://swexpertacademy.com/)
 - 백준 : 실버 이상
 - 프로그래머스 : 레벨 1 이상
